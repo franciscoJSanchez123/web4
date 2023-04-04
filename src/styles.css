@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+* {margin: 0;padding: 0;}  
+
+body {
+    --scrollbar-background: #21d5c4;
+  }
+
+
+body::-webkit-scrollbar {    /*esto es para la parte de atras del scroll*/
+    background: none;
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb { /*esta es la barra que se desplaza*/
+    background-color: var(--scrollbar-background);;
+    border-radius: 20px;     
+   
+  }

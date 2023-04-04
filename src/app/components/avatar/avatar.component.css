@@ -1,0 +1,36 @@
+
+:host{
+   
+
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+    margin-left: 7px;
+    margin-right: 7px;
+
+    color: #000000;
+}
+
+.avatar-img{
+
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    
+    font-size: 150%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+
+    background-color: #21d5c4;
+
+    
+}
+
+img{
+    height:80%;
+    width: 80%;
+}

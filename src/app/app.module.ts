@@ -7,10 +7,14 @@ import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
 import { AngularFireModule } from "@angular/fire/compat";
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
+import { AvatarComponent } from './components/avatar/avatar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideMenuComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,
