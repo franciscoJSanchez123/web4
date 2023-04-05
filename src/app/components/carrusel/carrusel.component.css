@@ -1,0 +1,56 @@
+/*@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-reboot.css';*/
+/*
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-grid.css';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-grid.css.map';
+
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css';
+
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map';
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-reboot.css';
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-reboot.css.map';
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map';
+
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.css.map';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../../../../node_modules/bootstrap/dist/css/bootstrap.min.css.map';
+*/
+img{
+    height: auto;
+    width: 70vw;
+
+    border-style: solid;
+    border-width: 4px;
+    border-color: #242424;
+    border-radius:14px;
+   
+}
+
+
+
+
+
+@media only screen and (max-width: 668px){
+    img{
+        width: auto;
+        max-width: 100%;
+        height: 52vw;
+    
+       
+       
+    }
+  
+  }
+
+
+
+  
+

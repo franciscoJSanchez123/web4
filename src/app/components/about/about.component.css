@@ -1,0 +1,128 @@
+
+:host{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  
+    
+} 
+
+
+
+.container{
+    width: 98%;
+    height: 97%;
+
+    
+   
+
+   
+
+   
+}
+.about{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+header{
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-size: 26px;
+}
+
+.biography{
+    width: 80%;
+    text-align: center;
+
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    font-weight: 300;
+
+    margin-bottom:3%
+}
+
+
+.data{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 40%;
+    height: 12vh;
+    margin: 1%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #2e2e2e;
+
+    border-width: 3px;
+    border-color: #21d5c4;
+    border-left-style: solid;
+
+    box-shadow: 0 2px 4px rgb(0 0 0 / 18%);
+
+}
+
+.card-container{
+    width: 92%;
+    height: 98%;
+
+}
+
+
+
+
+.card-title{
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    word-break: break-word;
+    color: #21d5c4;
+}
+
+.card-text{
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    word-break: break-word;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .card{
+        width: 80%;}
+  }
