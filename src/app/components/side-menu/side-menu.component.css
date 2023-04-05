@@ -26,7 +26,9 @@
 
    
 }
-
+.closeMenu{
+display: none;
+}
 
 .name{
 
@@ -101,4 +103,14 @@
   .social-links li{
     padding: 3%;
 
+  }
+
+
+
+  @media only screen and (max-width: 668px){
+    .closeMenu{
+      display: block;
+      }
+  
+  
   }

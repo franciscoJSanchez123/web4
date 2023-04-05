@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { InteractionService } from './services/interaction.service';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'web2';
+  isMenuMobile:boolean=false
 
+  constructor(private interactionService:InteractionService){
+
+  }
+  ngOnInit(): void {
+    this.interactionService.isMenuHidden.subscribe((data)=>{
+
+        this.isMenuMobile=data
+        console.log('llego el beta',this.isMenuMobile)
+    })
+     
+    }
 
 }

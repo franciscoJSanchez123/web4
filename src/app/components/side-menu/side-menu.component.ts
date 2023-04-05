@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { InteractionService } from 'src/app/services/interaction.service';
 @Component({
   selector: 'app-side-menu',
   templateUrl: './side-menu.component.html',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideMenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(private interactionService:InteractionService){
+
+  }
 
   ngOnInit(): void {
   }
+
+  changeMenu(){
+    this.interactionService.changeMenu()
+  }
+
 
 }
