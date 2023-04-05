@@ -25,13 +25,14 @@
     width: 15%;
     left: 0%;
     position: fixed;
+    z-index: 20;
 }
 
 .mobileMenu{
     width: 60%;
     left: 0%;
     position: fixed;
-
+    z-index: 20;
 }
 
 /*--------------------------------------------------------------------------*/
