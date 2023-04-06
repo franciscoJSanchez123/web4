@@ -24,13 +24,13 @@
     flex-direction: column;
     justify-content:center;
     align-items:center;
-
+    overflow: hidden;
     background-color: #21d5c4;
 
     
 }
 
 img{
-    height:80%;
-    width: 80%;
+    height:100%;
+    width: 100%;
 }
