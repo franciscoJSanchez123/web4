@@ -4,8 +4,10 @@ import { GalleryComponent } from './components/gallery/gallery.component';
 import { ServicesComponent } from './components/services/services.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
+  {path:'', component: HomeComponent},
   {path:'services', component: ServicesComponent},
   {path:'gallery', component: GalleryComponent},
   {path:'about', component: AboutComponent},
