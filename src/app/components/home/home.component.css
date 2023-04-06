@@ -105,3 +105,23 @@ button{
   
   
   }
+
+  @media only screen and (max-width: 568px){
+    .screen{
+       
+        font-size: 300px;
+       
+    }
+    .intro{
+        
+        font-size: calc(3em + 1vw);
+        
+    }
+    .button{
+            
+        width: 32vw;
+       
+    }
+  
+  
+  }
