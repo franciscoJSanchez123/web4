@@ -41,8 +41,21 @@
     min-height:100vh;
   
 
-    background-color: #f5f5f5
+    background-color: #171A21
 }
+@media only screen and (max-width: 1100px){
+    .menu{
+        width: 20%;
+    
+    }
+    
+    .content{
+        width: 80%;
+    
+  
+    }
+  
+  }
 
 
 
@@ -62,13 +75,26 @@
 
 
   @media only screen and (max-width: 768px){
+   /*--------------------------------------------------------------*/
+    /*-------necesario para el menu lateral------*/
     .menu{
-        width: 25%;
-        
+        display: none;
+    
+    }
+
+    .mobileMenu{
+        display: block;
+        width: 60%;
+       
+    }
+
+    /*--------------------------------------------------------------*/
+    .header{
+        display: block;
     }
     
     .content{
-        width: 75%;
+        width: 100%;
     
   
     }
@@ -104,10 +130,26 @@
   }
 
 
+  @media only screen and (max-width: 468px){
+
+
+    
+
+    .mobileMenu{
+        display: block;
+        width: 75%;
+       
+    }
+
+  
+  }
+
   /*--------------------------------------------------------------*/
     /*-------necesario para el menu lateral------*/
+      /*-------porque cuando agrando la pantalla y el menu mobile no estaba cerrado estonces el menu no
+      funciona bien por lo que debo hacer que la clase mobileMenu para ciertos tamaños se comporte como la clase menu------*/
 
-  @media only screen and (min-width:668px) {
+  @media only screen and (min-width:768px) {
     .mobileMenu{
         display: none;
     
@@ -120,8 +162,18 @@
 
   @media only screen and (min-width:900px) {
     .mobileMenu{
+        width: 20%;
+        right: 0%;
+        position: fixed;
+    
+    }
+   
+  }
+
+  @media only screen and (min-width:1100px) {
+    .mobileMenu{
         width: 15%;
-        left: 0%;
+        right: 0%;
         position: fixed;
     
     }

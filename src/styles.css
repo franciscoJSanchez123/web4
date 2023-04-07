@@ -2,12 +2,12 @@
 * {margin: 0;padding: 0;}  
 
 body {
-    --scrollbar-background: #21d5c4;
+    --scrollbar-background: #DC6F4C;
   }
 
 
 body::-webkit-scrollbar {    /*esto es para la parte de atras del scroll*/
-    background: none;
+    background: #171A21;
     width: 10px;
 }
 

@@ -29,6 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #dc6f4c;
 }
 
 header{
@@ -72,18 +73,25 @@ header{
     justify-content: center;
 
     color: #2e2e2e;
-
+/*
     border-width: 3px;
     border-color: #21d5c4;
     border-left-style: solid;
 
-    box-shadow: 0 2px 4px rgb(0 0 0 / 18%);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 18%);*/
 
 }
 
 .card-container{
-    width: 92%;
+    width: 80%;
     height: 98%;
+    border-radius: 14px;
+    /* border-top-right-radius: 22px; */
+    text-align: center;
+    /* position: relative; */
+    /* background-color: #DC6F4C; */
+    border-color: #DC6F4C;
+    border-style: solid;
 
 }
 
@@ -100,7 +108,7 @@ header{
     text-align: center;
 
     word-break: break-word;
-    color: #21d5c4;
+    color: #DC6F4C;
 }
 
 .card-text{

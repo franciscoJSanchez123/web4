@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #1b9b8f;
+    background-color: #171A21;
     color: #ececec;
 
     
@@ -24,7 +24,7 @@
     flex-direction: column;
     justify-content: space-between;
 
-   
+   z-index:1 ;
 }
 .closeMenu{
 display: none;
@@ -33,8 +33,21 @@ display: none;
 }
 
 .name{
-
+  height: 100%;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
   text-align: center;
+  position: relative;
+  background-color: #DC6F4C;
+}
+.name-background{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color:#171A21;
+  z-index: -1;
+  top: 0%;
+
 }
 .fullname{
   font-size: 32px;
@@ -46,20 +59,34 @@ display: none;
   font-weight: 900;
 }
 
-
-
-  nav{
+.menu{
+    padding-top:26%;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    background-color: #DC6F4C;
+    position: relative;
+}
+.menu-background{
+    position: absolute;
+    height: 100%;
     width: 100%;
-  }
+    background-color: #DC6F4C;
+    z-index: -1;
+    top: 0%;
+}
+
+nav{
+  width: 100%;
+}
 
 .menu-links {
     /* Estilos para la lista de enlaces del menú */
     list-style: none; /* Quita los marcadores predeterminados de la lista */
     width: 100%;
-
+  /*
     border-width: 0.1px;
     border-color: #5858586e;
-    border-top-style: solid;
+    border-top-style: solid;*/
    
   }
   .menu-links li {
@@ -67,16 +94,16 @@ display: none;
     width: 100%;
     height: 6vh;
     
-
+/*
     border-width: 0.1px;
     border-color: #5858586e;
-    border-bottom-style: solid;
+    border-bottom-style: solid;*/
   }
   .menu-links a {
     /* Estilos para los enlaces */
     height: 100%;
     text-decoration: none;
-    color: #ececec;
+    color: #171A21;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -88,7 +115,7 @@ display: none;
     padding-top: 6%;
     padding-bottom: 6%;
     width: 100%;
-    background-color: #000;
+    background-color: #171A21;
   }
 
   .social-links{
@@ -98,7 +125,7 @@ display: none;
 
     display: flex;
     justify-content: center;
-    background-color: #000;
+    /*background-color: #000;*/
 
   }
 
@@ -109,7 +136,7 @@ display: none;
 
 
 
-  @media only screen and (max-width: 668px){
+  @media only screen and (max-width: 768px){
     .closeMenu{
       display: flex;
       flex-direction: column;

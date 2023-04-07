@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    color: #DC6F4C;
     position: relative;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .display-img li{
-    background-color: #21d5c4;
+    background-color: #DC6F4C;
 
     display: flex;
     flex-direction: column;
