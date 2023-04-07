@@ -19,11 +19,13 @@ constructor(
   ) { }
 
 ngOnInit(): void {
+
+  /*
   this.projectService.getProjects().subscribe(res=>{
    this.projects=res;
    console.log(this.projects)
    
-  })
+  })*/
 
   
    

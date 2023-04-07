@@ -35,6 +35,10 @@ height: 29px;
     margin-top: 1%;
 }
 
+.icon svg{
+    fill:var(--primary-color)
+}
+
 
 .screen{
     position: absolute;
@@ -55,20 +59,20 @@ height: 29px;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;*/
-    color: #DC6F4C;
+    color: var(--primary-color);
     z-index: 10;
 
     text-align: center;
 }
 
 .fullname{
-    color: #fff;
+    color: var(--secundary-color);
 }
 .specialty{
     font-size: calc(0.8em + 1vw);
     padding-top: 13px;
     text-align: center;
-    color: #fff;
+    color: var(--secundary-color);
 }
 
 
@@ -84,11 +88,11 @@ button{
     width: 100%;
     border-radius: 21px;
     border-width: 2px;
-    border-color: #dc6f4c;
+    border-color: var(--primary-border-color);
     border-style: solid;
-    background: #171a21;
+    background: var(--primary-bg-color);
     font-weight: 900;
-    color: #dc6f4c;
+    color: var(--primary-color);
 }
 
 

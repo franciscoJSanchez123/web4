@@ -17,7 +17,6 @@ export class AppComponent {
     this.interactionService.isMenuHidden.subscribe((data)=>{
 
         this.isMenuMobile=data
-        console.log('llego el beta',this.isMenuMobile)
     })
      
     }

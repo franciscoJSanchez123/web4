@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
 
-    background-color: #171A21;
+    background-color: var(--primary-bg-color);
     color: #ececec;
 
     
@@ -38,13 +38,13 @@ display: none;
   border-top-right-radius: 22px;
   text-align: center;
   position: relative;
-  background-color: #DC6F4C;
+  background-color:  var(--secundary-bg-color);
 }
 .name-background{
   position: absolute;
   height: 100%;
   width: 100%;
-  background-color:#171A21;
+  background-color:var(--primary-bg-color);
   z-index: -1;
   top: 0%;
 
@@ -63,14 +63,14 @@ display: none;
     padding-top:26%;
     border-top-left-radius: 22px;
     border-top-right-radius: 22px;
-    background-color: #DC6F4C;
+    background-color: var(--secundary-bg-color);
     position: relative;
 }
 .menu-background{
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: #DC6F4C;
+    background-color: var(--secundary-bg-color);
     z-index: -1;
     top: 0%;
 }
@@ -115,7 +115,7 @@ nav{
     padding-top: 6%;
     padding-bottom: 6%;
     width: 100%;
-    background-color: #171A21;
+    background-color: var(--primary-bg-color);
   }
 
   .social-links{

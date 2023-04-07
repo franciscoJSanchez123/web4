@@ -1,18 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
 * {margin: 0;padding: 0;}  
 
+
+/*-----------------------------------------------------------------------*/
+:root {
+  --primary-bg-color: #171A21;
+  --secundary-bg-color:#C08552;/*#DC6F4C;/*#92BCEA;*/
+
+  --primary-color: var(--secundary-bg-color);
+  --secundary-color:#ececec;
+  --tertiary-color:var(--primary-bg-color);
+
+  --primary-border-color:var(--secundary-bg-color)
+  
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+
+
+
 body {
-    --scrollbar-background: #DC6F4C;
+    --scrollbar-background: var(--secundary-bg-color);
   }
 
 
 body::-webkit-scrollbar {    /*esto es para la parte de atras del scroll*/
-    background: #171A21;
+    background: var(--primary-bg-color);
     width: 10px;
 }
 
 body::-webkit-scrollbar-thumb { /*esta es la barra que se desplaza*/
-    background-color: var(--scrollbar-background);;
+    background-color: var(--scrollbar-background);
     border-radius: 20px;     
    
   }
+
+
+
+/*-----------------------------------------------------------------------*/
+
+  

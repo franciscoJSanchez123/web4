@@ -33,7 +33,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #DC6F4C;
+    color:  var(--primary-color);
     
    
 }
@@ -85,7 +85,7 @@ header{
     text-align: center;
     /* position: relative; */
     /* background-color: #DC6F4C; */
-    border-color: #DC6F4C;
+    border-color:  var(--primary-border-color);
     border-style: solid;
 
 }
@@ -99,6 +99,9 @@ header{
     align-items: center;
     justify-content: center;
 }
+.card-icon svg{
+    fill:var(--primary-color)
+}
 
 .card-title{
     height: 30%;
@@ -110,7 +113,7 @@ header{
     text-align: center;
     word-break: break-word;
     
-    color: #DC6F4C;
+    color:  var(--primary-color);
 }
 
 .card-text{
@@ -121,6 +124,7 @@ header{
     align-items: center;
     text-align: center;
     word-break: break-word;
+    color:  var(--secundary-color);
     padding-top: 8%;
 }
 
