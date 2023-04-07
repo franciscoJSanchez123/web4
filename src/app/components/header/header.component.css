@@ -1,22 +1,10 @@
 .header{
-    height: 14vh;
+    /*height: 14vh;*/
     background-color: var(--secundary-color);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     position: relative;
-}
-.menu{
-    padding-left: 11px;
-    padding-right: 11px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    right: 0%;
-    top: 30%;
-}
-
-.menu svg{
-    fill: var(--primary-color);
+    text-align: center;
 }
 
 .name{
@@ -29,12 +17,83 @@
 
 .fullname{
     font-size: 34px;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     font-weight: 900;
   }
   .profession{
     font-weight: 900;
-    padding-bottom: 4%;
-    display: none;
+    padding-bottom: 1%;
+    padding-top: 1%;
   }
+  .intro{
+    font-weight: 900;
+    padding-bottom: 1%;
+  }
+
+
+  .social-links{
+
+    list-style: none; /* Quita los marcadores predeterminados de la lista */
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*background-color: #000;*/
+
+  }
+
+  .social-links li{
+    padding: 3px;
+
+  }
+
+  svg{
+    fill: var(--primary-color);
+}
+
+nav{
+    width: 100%;
+  }
+
+
+
+  
+  
+  
+  
+  .menu-links {
+      /* Estilos para la lista de enlaces del menú */
+      list-style: none; /* Quita los marcadores predeterminados de la lista */
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    /*
+      border-width: 0.1px;
+      border-color: #5858586e;
+      border-top-style: solid;*/
+     
+    }
+    .menu-links li {
+      /* Estilos para cada elemento de la lista */
+      padding-left: 1%;
+      padding-right: 1%;
+      height: 6vh;
+      
+  /*
+      border-width: 0.1px;
+      border-color: #5858586e;
+      border-bottom-style: solid;*/
+    }
+    .menu-links a {
+      /* Estilos para los enlaces */
+      height: 100%;
+      text-decoration: none;
+      color: var(--tertiary-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }

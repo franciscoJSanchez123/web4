@@ -1,13 +1,11 @@
 <main>
   <div class="layout">
     
-    <div  [ngClass]="{'mobileMenu': isMenuMobile, 'menu': true}"   >
-      <app-side-menu></app-side-menu>
+    <div class="header">
+      <app-header></app-header>
     </div>
     <div class="content">
-      <div class="header">
-        <app-header></app-header>
-      </div>
+      
       <router-outlet></router-outlet>
     </div>
     
