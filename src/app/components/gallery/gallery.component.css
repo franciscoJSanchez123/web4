@@ -109,8 +109,8 @@ header{
 
 .img{
     
-    height: 40vh;
-    width: 40%;
+    height: 65vh;
+    width: 27%;
     margin: 0.5%;
 
    
@@ -132,12 +132,19 @@ header{
     
 }
 
+@media only screen and (max-width: 1050px){
+    .img{
+    
+        height: 65vh;
+        width: 40%;
+    }
+  }
 
 
 @media only screen and (max-width: 900px){
     .img{
     
-        height: 50vh;
+        height: 65vh;
         width: 80%;
     }
   }

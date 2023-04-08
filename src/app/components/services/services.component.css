@@ -58,7 +58,7 @@ header{
 
 .card{
     width: 25%;
-    height: 60vh;
+    height: 50vh;
 
     margin: 1%;
 
@@ -66,8 +66,10 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    color: #2e2e2e;
+    background-color: var(--primary-bgCard-color);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: var(--secundary-color);
 /*
     border-width: 3px;
     border-color: #21d5c4;
@@ -78,15 +80,15 @@ header{
 }
 
 .card-container{
-    width: 96%;
+    width: 85%;
     height: 98%;
     border-radius: 14px;
     /* border-top-right-radius: 22px; */
     text-align: center;
     /* position: relative; */
     /* background-color: #DC6F4C; */
-    border-color:  var(--primary-border-color);
-    border-style: solid;
+    /*border-color:  var(--primary-border-color);
+    border-style: solid;*/
 
 }
 
@@ -96,10 +98,13 @@ header{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
-.card-icon svg{
+.icon{
+    height: 40%;
+}
+.card-icon .icon svg{
     fill:var(--primary-color)
 }
 
@@ -108,12 +113,12 @@ header{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*align-items: center;*/
     justify-content: center;
-    text-align: center;
+    text-align: start;
     word-break: break-word;
     
-    color:  var(--primary-color);
+    color:  var(--secundary-color);
 }
 
 .card-text{
@@ -121,8 +126,8 @@ header{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /*align-items: center;*/
+    text-align: start;
     word-break: break-word;
     color:  var(--secundary-color);
     padding-top: 8%;

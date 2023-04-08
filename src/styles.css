@@ -4,14 +4,16 @@
 
 /*-----------------------------------------------------------------------*/
 :root {
-  --primary-bg-color: #171A21;
-  --secundary-bg-color:#C08552;/*#DC6F4C;/*#92BCEA;*/
+  --primary-bg-color:#14080E;/* #171A21;*/
+  --secundary-bg-color:#F2A541; /*#C08552;/*#DC6F4C;/*#92BCEA;*/
 
   --primary-color: var(--secundary-bg-color);
   --secundary-color:#ececec;
   --tertiary-color:var(--primary-bg-color);
 
-  --primary-border-color:var(--secundary-bg-color)
+  --primary-border-color:var(--secundary-bg-color);
+
+  --primary-bgCard-color:#14080E;/*#1d2026;*/
   
 }
 

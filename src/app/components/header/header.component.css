@@ -13,21 +13,28 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: var(--primary-color);
 }
 
 .fullname{
-    font-size: 34px;
+    
     padding-top: 1%;
     padding-bottom: 1%;
+    font-size: calc(3em + 1vw);
     font-weight: 900;
   }
   .profession{
+    font-size: calc(0.6em + 1vw);
     font-weight: 900;
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+  }
+
+  .profession span{
+    color: var(--primary-color);
   }
   .intro{
-    font-weight: 900;
+    font-size: calc(0.3em + 1vw);
     padding-bottom: 1%;
   }
 
@@ -36,7 +43,7 @@
 
     list-style: none; /* Quita los marcadores predeterminados de la lista */
     width: 100%;
-
+    padding-bottom: 1.5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -47,6 +54,16 @@
   .social-links li{
     padding: 3px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+    .social-links li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   svg{
@@ -70,6 +87,7 @@ nav{
       display: flex;
       flex-direction: row;
       justify-content: center;
+      font-size: calc(0.1em + 0.4vw);
     /*
       border-width: 0.1px;
       border-color: #5858586e;
@@ -96,4 +114,73 @@ nav{
       flex-direction: column;
       justify-content: center;
       text-align: center;
+
+      justify-content: center;
+    font-size: calc(0.7em + 1vw);
+    }
+
+    @media only screen and (max-width: 1058px){
+      .menu-links {
+        font-size: calc(0.1em + 0.9vw);
+       
+      }
+
+      .profession{
+        font-size: calc(0.9em + 1vw);
+        
+      }
+
+      .intro{
+        font-size: calc(0.6em + 1vw);
+       
+      }
+    }
+
+    @media only screen and (max-width: 900px){
+      .menu-links {
+        font-size: calc(0.7em + 0.9vw);
+       
+      }
+
+      .intro{
+        font-size: calc(0.7em + 1vw);
+       
+      }
+    
+    }
+
+    @media only screen and (max-width: 668px){
+      .menu-links {
+        font-size: calc(1em + 1vw);
+       
+      }
+
+      .profession{
+        font-size: calc(1em + 1vw);
+        
+      }
+      .intro{
+        font-size: calc(0.8em + 1vw);
+        padding: 3%;
+      }
+    
+    }
+
+    @media only screen and (max-width: 568px){
+      .menu-links {
+        font-size: calc(0.9em + 1vw);
+       
+      }
+      .intro{
+        font-size: calc(1em + 1vw);
+      }
+    
+    }
+
+    @media only screen and (max-width: 468px){
+      .menu-links {
+        font-size: calc(0.7em + 1vw);
+       
+      }
+    
     }

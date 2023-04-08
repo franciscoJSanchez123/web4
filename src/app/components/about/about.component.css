@@ -66,7 +66,7 @@ header{
 
 
 .card{
-    width: 40%;
+    width: 25%;
     height: 18vh;
     margin: 1%;
 
@@ -74,6 +74,11 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    background-color: var(--primary-bgCard-color);
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: var(--secundary-color);
 
     
 
@@ -86,15 +91,15 @@ header{
 }
 
 .card-container{
-    width: 40%;
+    width: 80%;
     height: 98%;
     border-radius: 14px;
     /* border-top-right-radius: 22px; */
     text-align: center;
     /* position: relative; */
     /* background-color: #DC6F4C; */
-    border-color: var(--primary-border-color);
-    border-style: solid;
+    /*border-color: var(--primary-border-color);
+    border-style: solid;*/
 
 }
 
@@ -106,9 +111,9 @@ header{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    /*align-items: center;*/
+    text-align: start;
     word-break: break-word;
     color:  var(--primary-color);
 }
@@ -118,8 +123,8 @@ header{
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /*align-items: center;*/
+    text-align: start;
     justify-content: center;
     word-break: break-word;
     color:  var(--secundary-color);
